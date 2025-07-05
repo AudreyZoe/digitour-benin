@@ -7,3 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('index', [SiteTouristiqueController::class, 'index'])->name('index');
+
